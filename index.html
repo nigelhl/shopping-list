@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link href="css/main.css" type="text/css" rel="stylesheet" />
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -18,14 +20,15 @@
 	<div class="intro">
 		<p>How do you create a grocery list that will help you manage your grocery budget? <strong>My shopping list</strong> ensures that you buy only what you need and helps you get in and out of the store quickly.</p>
 	</div>
-	<div class="List">
-		<ol>
-			<li>Milk</li>
-			<li>Butter</li>
-			<li>Bread</li>
-			<li>Doughnuts</li>
-			<li>Pizza</li>
-		</ol>
+	<form>
+		Shopping List Item: <br>
+		<input class="textbox" type="text" name="ShoppingItemText"><br>
+		<input class="button" type="button" value ="submit">
+	</form>
+	<br>
+	<div class="ListDiv">
+		<ul class="list">
+		</ul>
 	<div>
 	<footer>
 	</footer>
